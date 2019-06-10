@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1554218122 "Resume.tex" "Resume.pdf" "Resume" 1554218122
+["pdflatex"] 1560210081 "Resume.tex" "Resume.pdf" "Resume" 1560210081
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1550406775 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1550406775 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm" 1550406775 1300 63a6111ee6274895728663cf4b4e7e81 ""
@@ -57,13 +57,13 @@
   "/usr/share/texmf-dist/tex/latex/tools/verbatim.sty" 1550406775 7262 cf84171354dfa1855684c0946ff000f1 ""
   "/usr/share/texmf-dist/tex/latex/url/url.sty" 1550406775 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1550406775 33301 a3134070eacafb10b1f371612ce2650d ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1553976279 3106252 d5255ed7fd6ec6ea7699581e9a54cb46 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1553976267 7919196 d9f5dd69d69f15ea9c8a125ba961c531 ""
-  "Resume.aux" 1554214152 1195 76a0069aa0d92417cdb2120251086be7 ""
-  "Resume.out" 1554214152 223 c1fd00a513e3e3315da93771712f8357 ""
-  "Resume.tex" 1554218121 6554 87dd538920c4a470e8db0796ae25adf8 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1556294182 3106252 d5255ed7fd6ec6ea7699581e9a54cb46 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1556294175 7919196 ceeff288edb298aa3b567fe69aaec195 ""
+  "Resume.aux" 1560209819 1195 76a0069aa0d92417cdb2120251086be7 ""
+  "Resume.out" 1560209819 223 c1fd00a513e3e3315da93771712f8357 ""
+  "Resume.tex" 1560210081 6538 4f3468b3b7c0e28d5363d88eb260792a ""
   (generated)
-  "Resume.pdf"
   "Resume.log"
-  "Resume.aux"
   "Resume.out"
+  "Resume.pdf"
+  "Resume.aux"
