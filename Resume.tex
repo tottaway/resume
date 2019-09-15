@@ -14,6 +14,13 @@
 \usepackage{verbatim}
 \usepackage{enumitem}
 \usepackage[pdftex]{hyperref}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
 \usepackage{fancyhdr}
 
 
@@ -93,50 +100,50 @@
   \resumeSubHeadingListStart
     \resumeSubheading
         {Brown University}{Providence, RI}
-        {Applied Math-Computer Science}{Expected Graduation May 2022}
+        {Applied Math-Computer Science GPA: 4.0}{Expected Graduation May 2022}
         \resumeItemListStart
-            \resumeItem{}
-            {Coursework: CSCI 0190 Accelerated Introduction to Computer Science, APMA 0350 Applied ODE's, APMA 1360 Applied Dynamical Systems, APMA 1160 Introduction to Numerical Opimazation, CS 0220 Discrete Math, PHYS 0070 Analytical Mechanics, CHIN 0100, and CHIN 0200 Basic Chinese}
+            \resumeItem{Notable Coursework: }
+            {Applied Dynamical Systems, Numerical Opimazation, Discrete Math, Analytical Mechanics, Information Theory, Introduction to Computer Systems, Probability and Statistics, and Chinese}
         \resumeItemListEnd
    
     \resumeSubheading
       {Albany High School}{Albany, NY}
-      {Advanced Regents Diploma}{Sept. 2014 -- June 2018}
+      {Advanced Regents Diploma GPA: 97\%}{Sept. 2014 -- June 2018}
 
     \resumeSubheadingSimple
-      {Other}{}
+      {Independent Learning}{}
       \resumeItemListStart
         \resumeItem{}
           {Independent reading of computer vision research papers (primarily ResNets and variations such as Wide ResNets, Stochastic Depth, Pyramid nets etc.)}
       \resumeItemListEnd
-   
-   
   \resumeSubHeadingListEnd
 
 
 %-----------Paid Experience---------------
 \section{Work Experience}
   \resumeSubHeadingListStart
-    \resumeSubheading{NYS ITS/DOH (Django, JavaScript, HTML, CSS)}
-    {Albany, NY}{Student Assistant}{Summers 2018-2019}
+    \resumeSubheading{NYS ITS/Health Research Institute (JavaScript, Python, SQL)}
+    {Albany, NY}{Software Developer}{Summer 2018 - Summer 2019}
       \resumeItemListStart
+        \resumeItem{}
+        {Created new data entry processes for labs both inside and outside Wadsworth Center}
+        \resumeItem{}
+        {Developed and maintained scripts to process instrument data for entry into the internal LIMS system}
+        \resumeItem{}
+        {Interfaced with a legacy database containing 200+ tables}
         \resumeItem{}
         {Developed scripts for automated regression testing}
         \resumeItem{}
-        {Re-imagined and prototyped systems for patient testing in the event of an outbreak (motivated by the shortcomings of NYS's response the Zika outbreak)}
-        \resumeItem{}
-        {Built multiple automated systems for HL7 message generation to expand Remote Order Entry accessibility}
-        \resumeItem{}
-        {Explored progressive web apps as a precaution against network failures}
+        {Built automated systems for HL7 message generation to expand Remote Order Entry accessibility}
       \resumeItemListEnd
-    \resumeSubheading{LingView (JavaScript, Node.js, React)}{Brown University}{Developer}{Sept. 2018 - Present}
+    \resumeSubheading{LingView (JavaScript, Node.js, React)}{Brown University}{Developer}{Sept. 2018 - May 2019}
       \resumeItemListStart
         \resumeItem{}
-        {Working with extensive preexisting code-base}
+        {Built a front-end interface for viewing and searching through a linguistic corpus}
         \resumeItem{}
-        {Collaborating with other students and faculty to determine project goals and priorities}
+        {Collaborated with other students and faculty to determine project goals and priorities}
         \resumeItem{}
-        {Exploring search technologies such Fuse, LUNR, and SOLR and determining the most appropriate tool}
+        {Explored various search technologies such as Fuse, LUNR, and SOLR}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
@@ -144,35 +151,42 @@
 \section{Projects}
     \resumeSubHeadingListStart
         \resumeSubheadingSimple
-          {Autonomous Fixed Wing Plane}{May. 2019 - Present}
+          {Neural Nets for Solving ODEs/PDEs}{Aug. 2019 - Present}
           \resumeItemListStart
             \resumeItem{}
-            {Learned concepts in control theory and robotics by developing software to fly a fixed wing plane}
+            {Replicating and expanding upon this \href{https://arxiv.org/abs/physics/9705023}{paper} using lower level pytorch functions}
+            \resumeItem{}
+            {Experimenting with effect of mixing activation functions to model different kinds of functions}
+            \resumeItem{}
+            {Implementing custom optimization algorithm with quadratic convergance}
           \resumeItemListEnd
         \resumeSubheadingSimple
           {Rocket Stabilization}{Apr. 2019 - May 2019}
           \resumeItemListStart
             \resumeItem{}
-            {Applied techniques from the field of dynamic systems to study the stabily of various rocket control systems (final paper can be found on github)}
+            {Applied techniques from the field of dynamic systems to study the stability of various control systems (\href{https://github.com/IzzyBrand/tvc\_rocket\_model/blob/master/all_the_math.pdf}{final paper})}
+            \resumeItem{}
+            {Identified a bifurcation point as we tuned our control function}
           \resumeItemListEnd
         \resumeSubheadingSimple
-          {Exploring Numerical Methods (Python)}{Oct. 2018 - Apr. 2019}
+          {Exploring Numerical Methods}{Oct. 2018 - Apr. 2019}
           \resumeItemListStart
             \resumeItem{}
-              {Exploring algorithms for finding numerical approximations to differential equations using Python's numpy library}
+              {Explored algorithms for finding numerical approximations to differential equations using Python's numpy library}
             \resumeItem{}
-              {Learning more about plotting using matplotlib, including visualizations for the 3-d wave equation and the behavior of particles in chaotic systems}
+              {Created visualizations for systems such as the 3-D wave equation and particles in chaotic systems}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 % -------Skills--------
 \section{Skills}
   \resumeSubHeadingListStart
-    \item \textbf{Programming Languages/Frameworks} : Python, JavaScript, CSS, SQL, MATLAB, \LaTeX, Django, PyTorch, Pyret, Racket, Flask, Node, React
-    \item \textbf{Pair programming}: Extensive experience pair programming, working with other's to formulate approaches, catch bugs, and write code.
+    \item \textbf{Programming Languages/Frameworks} : Python, C, JavaScript, CSS, SQL, MATLAB, \LaTeX, Django, PyTorch, Pyret, Racket, Flask, Node, React
+    \item \textbf{Communication \& Adaptibility}: Ability to enter a team of diverse people, listen closely, and work collaboratively to push a project forward
+    \item \textbf{Legacy Code Bases}: Maintaining, troubleshooting, and adding features to large scale legacy code bases
   \resumeSubHeadingListEnd
 \section{Activities}
     \resumeSubHeadingListStart
-    \item Juggling (up to five objects), blues/swing dancing, cycling, running, music (clarinet and piano)
+    \item Juggling (up to five objects), rock climbing, running, blues dancing, unicycling, bicycling, music
   \resumeSubHeadingListEnd
 %-------------------------------------------
 \end{document}
