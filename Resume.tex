@@ -19,8 +19,7 @@
     colorlinks=true,
     linkcolor=blue,
     filecolor=magenta,      
-    urlcolor=cyan,
-}
+    urlcolor=cyan, }
 \usepackage{fancyhdr}
 
 
@@ -90,7 +89,7 @@
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
     \text{\Large {Thomas Ottaway}} \\
   Github: \href{https://github.com/tottaway}{https://github.com/tottaway}\\
-  Email : \href{mailto:tottaway123@gmail.com}{tottaway123@gmail.com} \\
+  Email : \href{mailto:thomas_ottaway@brown.edu}{thomas\_ottaway@brown.edu} \\
   Mobile : (518) 466-9711 \\
 \end{tabular*}
 
@@ -102,91 +101,96 @@
         {Brown University}{Providence, RI}
         {Applied Math-Computer Science GPA: 4.0}{Expected Graduation May 2022}
         \resumeItemListStart
-            \resumeItem{Notable Coursework: }
-            {Applied Dynamical Systems, Numerical Opimazation, Discrete Math, Analytical Mechanics, Information Theory, Introduction to Computer Systems, Probability and Statistics, and Chinese}
+            \resumeItem{Technical Coursework: }
+            {Graduate Algorithms Seminar $\vert$ Sublinear Algorithms for Big Data $\vert$ Discrete Math $\vert$ Probability and Statistics $\vert$ Distributed Systems $\vert$ Convex Optimization $\vert$ Information Theory $\vert$ Dynamical Systems $\vert$ Operating Systems $\vert$ Control Systems Engineering}
         \resumeItemListEnd
    
-    \resumeSubheading
-      {Albany High School}{Albany, NY}
-      {Advanced Regents Diploma GPA: 97\%}{Sept. 2014 -- June 2018}
+    % \resumeSubheadingSimple{Albany High School}{Albany, NY}
 
-    \resumeSubheadingSimple
-      {Independent Learning}{}
-      \resumeItemListStart
-        \resumeItem{}
-          {Independent reading of computer vision research papers (primarily ResNets and variations such as Wide ResNets, Stochastic Depth, Pyramid nets etc.)}
-      \resumeItemListEnd
+    % \resumeSubheadingSimple
+    %   {Independent Learning}{}
+    %   \resumeItemListStart
+    %     \resumeItem{}
+    %       {Independent reading of computer vision research papers (primarily ResNets and variations such as Wide ResNets, Stochastic Depth, Pyramid nets etc.)}
+    %   \resumeItemListEnd
   \resumeSubHeadingListEnd
 
 
 %-----------Paid Experience---------------
 \section{Work Experience}
   \resumeSubHeadingListStart
-    \resumeSubheading{NYS ITS/Health Research Institute (JavaScript, Python, SQL)}
-    {Albany, NY}{Software Developer}{Summer 2018 - Summer 2019}
+  \resumeSubheading{Draper Laboratories (Python, C++)}
+    {Cambridge, MA}{Engineering Intern}{June 2020 - August 2020}
       \resumeItemListStart
         \resumeItem{}
-        {Created new data entry processes for labs both inside and outside Wadsworth Center}
+        {Developed and implemented an algorithm to locate radiation sources using a mobile sensor. This included a particle filter to estimate the location and strength of the radiation source as well as information theoretic search heuristics for selecting new locations to take measurements.}
         \resumeItem{}
-        {Developed and maintained scripts to process instrument data for entry into the internal LIMS system}
+        {Implemented improved simulations for gaseous plumes and adapted search algorithm to estimate the source of the gas.}
+      \resumeItemListEnd
+      \resumeSubheading{NYS DOH/Health Research Institute (Python, SQL, JavaScript)}
+    {Albany, NY}{Software Developer Intern}{Summer 2018 - Spring 2020}
+      \resumeItemListStart
+        \resumeItem{}
+        {Migrated an application critical to the COVID-19 response effort from an Oracle back end to SQL Server}
+        \resumeItem{}
+        {Created systems to import patient identifying information as CSVs which drastically reduced data entry times}
+        \resumeItem{}
+        {Developed and maintained Python scripts to pre-process laboratory instrument data}
         \resumeItem{}
         {Interfaced with a legacy database containing 200+ tables}
         \resumeItem{}
         {Developed scripts for automated regression testing}
+        % \resumeItem{}
+        % {Built automated systems for HL7 message generation to expand Remote Order Entry accessibility}
+      \resumeItemListEnd
+    \resumeSubheadingSimple{Undergraduate Teaching Assistant for Discrete Math}
+    {Jan. 2020 - May. 2020}
+      \resumeItemListStart
         \resumeItem{}
-        {Built automated systems for HL7 message generation to expand Remote Order Entry accessibility}
+        {Graded student assignments and held weekly office hours to explain concepts and help students with problems sets}
+        {}
       \resumeItemListEnd
     \resumeSubheading{LingView (JavaScript, Node.js, React)}{Brown University}{Developer}{Sept. 2018 - May 2019}
       \resumeItemListStart
         \resumeItem{}
         {Built a front-end interface for viewing and searching through a linguistic corpus}
-        \resumeItem{}
-        {Collaborated with other students and faculty to determine project goals and priorities}
-        \resumeItem{}
-        {Explored various search technologies such as Fuse, LUNR, and SOLR}
+        % \resumeItem{}
+        % {Collaborated with other students and faculty to determine project goals and priorities}
+        % \resumeItem{}
+        % {Explored various search technologies such as Fuse, LUNR, and SOLR}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
 %-----Projects and Volunteer Work-------
 \section{Projects}
-    \resumeSubHeadingListStart
-        \resumeSubheadingSimple
-          {Neural Nets for Solving ODEs/PDEs}{Aug. 2019 - Present}
-          \resumeItemListStart
-            \resumeItem{}
-            {Replicating and expanding upon this \href{https://arxiv.org/abs/physics/9705023}{paper} using lower level pytorch functions}
-            \resumeItem{}
-            {Experimenting with effect of mixing activation functions to model different kinds of functions}
-            \resumeItem{}
-            {Implementing custom optimization algorithm with quadratic convergance}
-          \resumeItemListEnd
-        \resumeSubheadingSimple
-          {Rocket Stabilization}{Apr. 2019 - May 2019}
-          \resumeItemListStart
-            \resumeItem{}
-            {Applied techniques from the field of dynamic systems to study the stability of various control systems (\href{https://github.com/IzzyBrand/tvc\_rocket\_model/blob/master/all_the_math.pdf}{final paper})}
-            \resumeItem{}
-            {Identified a bifurcation point as we tuned our control function}
-          \resumeItemListEnd
-        \resumeSubheadingSimple
-          {Exploring Numerical Methods}{Oct. 2018 - Apr. 2019}
-          \resumeItemListStart
-            \resumeItem{}
-              {Explored algorithms for finding numerical approximations to differential equations using Python's numpy library}
-            \resumeItem{}
-              {Created visualizations for systems such as the 3-D wave equation and particles in chaotic systems}
-          \resumeItemListEnd
+  \resumeSubHeadingListStart
+\item \textbf{OS Kernel (C)} (\textit{Jan. 2020} - \textit{May 2020}) - Built a simple kernel with a scheduler, TTY driver, S5FS file system, and virtual memory as part of a course on Operating Systems.
+\item \textbf{Ball Balancing (C++)} (\textit{May 2020}) - Built a high fidelity simulation of a table with two axis of rotation balancing a ball. Features included a rigid body physics simulator, a simulated raytraced camera, CV algorithms to estimate the ball's location, a Kalman Filter to smooth sensor noise, and tuned PID controller.
+\item \textbf{Music Visualizer (Python)} (\textit{May 2020}) - Built a music visualizer using Fourier transforms.
+\item \textbf{Neural Nets for Solving ODEs (Python)} (\textit{Aug. 2019}) Implemented some algorithms from \href{https://arxiv.org/abs/physics/9705023}{this paper}.
+            % \resumeItem{}
+            % {Implementing custom optimization algorithm with quadratic convergance}
+\item \textbf{Rocket Stabilization (Python)} (\textit{Apr. 2019 - May 2019}) - Final group project for Nonlinear Dynamical Systems. We studied a thrust vector controlled rocket in two dimensions and discovered bifurcations which occurred as we varied the parameters of a PD controller.
+        %   \resumeItemListEnd
+        % \resumeSubheadingSimple
+        %   {Exploring Numerical Methods}{Oct. 2018 - Apr. 2019}
+        %   \resumeItemListStart
+        %     \resumeItem{}
+        %       {Explored algorithms for finding numerical approximations to differential equations using Python's numpy library}
+        %     \resumeItem{}
+        %       {Created visualizations for systems such as the 3-D wave equation and particles in chaotic systems}
+        %   \resumeItemListEnd
     \resumeSubHeadingListEnd
 % -------Skills--------
 \section{Skills}
   \resumeSubHeadingListStart
-    \item \textbf{Programming Languages/Frameworks} : Python, C, JavaScript, CSS, SQL, MATLAB, \LaTeX, Django, PyTorch, Pyret, Racket, Flask, Node, React
-    \item \textbf{Communication \& Adaptibility}: Ability to enter a team of diverse people, listen closely, and work collaboratively to push a project forward
-    \item \textbf{Legacy Code Bases}: Maintaining, troubleshooting, and adding features to large scale legacy code bases
+    \item \textbf{Programming Languages} : Python, C++, C, JavaScript, Go, SQL, MATLAB
+    % \item \textbf{Communication \& Adaptibility}: Ability to enter a team of diverse people, listen closely, and work collaboratively to push a project forward
+    \item \textbf{Frameworks/Tools}: Numpy, Matplotlib, ROS, PyQtGraph, Django, SQLServer, Oracle, PyTorch, Gazebo
   \resumeSubHeadingListEnd
 \section{Activities}
     \resumeSubHeadingListStart
-    \item Juggling (up to five objects), rock climbing, running, blues dancing, unicycling, bicycling, music
+    \item Juggling, running, rock climbing, cooking, blues dancing, unicycling, bicycling, playing piano
   \resumeSubHeadingListEnd
 %-------------------------------------------
 \end{document}
