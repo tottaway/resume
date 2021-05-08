@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.5.1)  7 MAY 2021 10:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.5.1)  8 MAY 2021 10:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -8,8 +8,8 @@ entering extended mode
 LaTeX2e <2020-10-01> patch level 2
 L3 programming layer <2020-12-03> xparse <2020-03-03> (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-(/usr/share/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+(/usr/share/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
 \c@part=\count177
 \c@section=\count178
@@ -187,22 +187,22 @@ File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count197
 \l__pdf_internal_box=\box49
 ) (./Resume.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count198
@@ -217,7 +217,7 @@ LaTeX Font Info:    ... okay on input line 86.
 \makeMPintoPDFobject=\count269
 \everyMPtoPDFconversion=\toks22
 )
-Package hyperref Info: Link coloring ON on input line 86.
+Package hyperref Info: Link coloring ON on input line 88.
  (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
@@ -227,24 +227,22 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count270
 )
-LaTeX Info: Redefining \ref on input line 86.
-LaTeX Info: Redefining \pageref on input line 86.
-LaTeX Info: Redefining \nameref on input line 86.
+LaTeX Info: Redefining \ref on input line 88.
+LaTeX Info: Redefining \pageref on input line 88.
+LaTeX Info: Redefining \nameref on input line 88.
  (./Resume.out) (./Resume.out)
 \@outlinefile=\write3
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 89.
+(Font)              <7> on input line 91.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 89.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 89.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 89.
+(Font)              <5> on input line 91.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 91.
  (/usr/share/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-./Resume.tex:90: Undefined control sequence.
-l.90     \text
-              {\Large {Thomas Ottaway}} \\
+./Resume.tex:92: Undefined control sequence.
+l.92   \text
+            {\Large {Thomas Ottaway}}  & thomas\_ottaway@brown.edu $\cdot$ (...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -252,34 +250,85 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 105.
+(Font)              <9> on input line 101.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 105.
+(Font)              <6> on input line 101.
+
+./Resume.tex:191: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.191     \item \textbf
+                       {Programming Languages} -- Python, C++, C, JavaScript...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 191
+[][]
+ []
+
+
+./Resume.tex:193: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.193     \item \textbf
+                       {Frameworks/Tools} -- Numpy, Matplotlib, ROS, PyQtGra...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 193
+[][]
+ []
+
+
+./Resume.tex:197: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.197     \item J
+                 uggling, running, rock climbing, cooking, blues dancing, un...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 197
+[][]
+ []
+
 
 Package Fancyhdr Warning: \footskip is too small (0.0pt): 
-Make it at least 4.08003pt.
+Make it at least 3.60004pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./Resume.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Resume.aux)
 Package rerunfilecheck Info: File `Resume.out' has not changed.
 (rerunfilecheck)             Checksum: C1FD00A513E3E3315DA93771712F8357;223.
  ) 
 Here is how much of TeX's memory you used:
- 6130 strings out of 479383
- 91932 string characters out of 5875831
- 411655 words of memory out of 5000000
- 23147 multiletter control sequences out of 15000+600000
- 409354 words of font info for 50 fonts, out of 8000000 for 9000
+ 6129 strings out of 479383
+ 91864 string characters out of 5875831
+ 410586 words of memory out of 5000000
+ 23144 multiletter control sequences out of 15000+600000
+ 408963 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,11n,72p,379b,441s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Resume.pdf (2 pages, 100121 bytes).
+ 66i,11n,72p,373b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on Resume.pdf (1 page, 135710 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 500000)
+ 83 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

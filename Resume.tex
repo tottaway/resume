@@ -4,7 +4,7 @@
 % License : MIT
 %------------------------
 
-\documentclass[letterpaper,11pt]{article}
+\documentclass[letterpaper,10pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -51,33 +51,35 @@
 % Custom commands
 \newcommand{\resumeItem}[2]{
   \item\small{
-    \textbf{#1}{#2 \vspace{-2pt}}
+    \textbf{#1}{#2 \vspace{-6pt}}
   }
 }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-1pt}\item
+    \vspace{1pt} 
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-5pt}
+    \end{tabular*}\vspace{-3pt}
 }
 
 \newcommand{\resumeSubheadingSimple}[2]{
   \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} & \textit{\small#2}\\
-    \end{tabular*}\vspace{-5pt}
+    \end{tabular*}\vspace{-3pt}
 }
 
-\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-5pt}}
 
 \renewcommand{\labelitemii}{$\circ$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+% \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+% \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeSubHeadingListStart}{}
+\newcommand{\resumeSubHeadingListEnd}{}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
 
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -87,10 +89,7 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-    \text{\Large {Thomas Ottaway}} \\
-  Github: \href{https://github.com/tottaway}{https://github.com/tottaway}\\
-  Email : \href{mailto:thomas_ottaway@brown.edu}{thomas\_ottaway@brown.edu} \\
-  Mobile : (518) 466-9711 \\
+  \text{\Large {Thomas Ottaway}}  & thomas\_ottaway@brown.edu $\cdot$ (518) 466--9711 $\cdot$ \href{https://github.com/tottaway}{Github} \\
 \end{tabular*}
 
 
@@ -99,10 +98,11 @@
   \resumeSubHeadingListStart
     \resumeSubheading
         {Brown University}{Providence, RI}
-        {Applied Math-Computer Science GPA: 4.0}{Expected Graduation May 2022}
+        {Applied Math--Computer Science $\cdot$ GPA: 4.0}{May 2022 (Expected)}
         \resumeItemListStart
             \resumeItem{Technical Coursework: }
-            {Graduate Algorithms Seminar $\vert$ Sublinear Algorithms for Big Data $\vert$ Discrete Math $\vert$ Probability and Statistics $\vert$ Distributed Systems $\vert$ Convex Optimization $\vert$ Information Theory $\vert$ Dynamical Systems $\vert$ Operating Systems $\vert$ Control Systems Engineering}
+            {Operating Systems $\cdot$ Sublinear Algorithms for Big Data $\cdot$ Dynamical Systems $\cdot$ Control Theory $\cdot$ Distributed Systems $\cdot$ Graduate Algorithms Seminar $\cdot$ Convex Optimization $\cdot$ Information Theory $\cdot$ Probability and Statistics}
+            \resumeItem{Teaching Assistant: } {Discrete Math (Spring 2020, Spring 2021)}
         \resumeItemListEnd
    
     % \resumeSubheadingSimple{Albany High School}{Albany, NY}
@@ -119,38 +119,40 @@
 %-----------Paid Experience---------------
 \section{Work Experience}
   \resumeSubHeadingListStart
-  \resumeSubheading{Draper Laboratories (Python, C++)}
-    {Cambridge, MA}{Engineering Intern}{June 2020 - August 2020}
+    \resumeSubheading{Neocis Inc (C++)}{Miami, FL}{Intern}{May 2021 -- Aug 2021}
       \resumeItemListStart
         \resumeItem{}
-        {Developed and implemented an algorithm to locate radiation sources using a mobile sensor. This included a particle filter to estimate the location and strength of the radiation source as well as information theoretic search heuristics for selecting new locations to take measurements.}
+        {TBD}
         \resumeItem{}
-        {Implemented improved simulations for gaseous plumes and adapted search algorithm to estimate the source of the gas.}
+        {TBD}
+        \resumeItem{}
+        {TBD}
+      \resumeItemListEnd
+  \resumeSubheading{Draper Laboratories (Python, C++)}
+    {Cambridge, MA}{Engineering Intern}{Jun 2020 -- Aug 2020}
+      \resumeItemListStart
+        \resumeItem{}
+        {Developed and implemented a search algorithm using a particle filter and information-theoretic search heuristics}
+        \resumeItem{}
+        {Applied the search algorithm to determine locations and properties of radioactive and gaseous hazards using a mobile sensor} 
+        \resumeItem{}
+        {Implemented improved simulations for gaseous plumes}
       \resumeItemListEnd
       \resumeSubheading{NYS DOH/Health Research Institute (Python, SQL, JavaScript)}
-    {Albany, NY}{Software Developer Intern}{Summer 2018 - Spring 2020}
+    {Albany, NY}{Software Developer Intern}{Jul 2018 -- Jun 2020}
       \resumeItemListStart
         \resumeItem{}
         {Migrated an application critical to the COVID-19 response effort from an Oracle back end to SQL Server}
         \resumeItem{}
         {Created systems to import patient identifying information as CSVs which drastically reduced data entry times}
         \resumeItem{}
-        {Developed and maintained Python scripts to pre-process laboratory instrument data}
+        {Developed Python scripts to pre-process laboratory instrument data and perform automated regression testing}
         \resumeItem{}
         {Interfaced with a legacy database containing 200+ tables}
-        \resumeItem{}
-        {Developed scripts for automated regression testing}
         % \resumeItem{}
         % {Built automated systems for HL7 message generation to expand Remote Order Entry accessibility}
       \resumeItemListEnd
-    \resumeSubheadingSimple{Undergraduate Teaching Assistant for Discrete Math}
-    {Jan. 2020 - May. 2020}
-      \resumeItemListStart
-        \resumeItem{}
-        {Graded student assignments and held weekly office hours to explain concepts and help students with problems sets}
-        {}
-      \resumeItemListEnd
-    \resumeSubheading{LingView (JavaScript, Node.js, React)}{Brown University}{Developer}{Sept. 2018 - May 2019}
+    \resumeSubheading{LingView (JavaScript, Node.js, React)}{Providence, RI}{Developer}{Sep 2018 -- May 2019}
       \resumeItemListStart
         \resumeItem{}
         {Built a front-end interface for viewing and searching through a linguistic corpus}
@@ -163,30 +165,32 @@
 
 %-----Projects and Volunteer Work-------
 \section{Projects}
-  \resumeSubHeadingListStart
-\item \textbf{OS Kernel (C)} (\textit{Jan. 2020} - \textit{May 2020}) - Built a simple kernel with a scheduler, TTY driver, S5FS file system, and virtual memory as part of a course on Operating Systems.
-\item \textbf{Ball Balancing (C++)} (\textit{May 2020}) - Built a high fidelity simulation of a table with two axis of rotation balancing a ball. Features included a rigid body physics simulator, a simulated raytraced camera, CV algorithms to estimate the ball's location, a Kalman Filter to smooth sensor noise, and tuned PID controller.
-\item \textbf{Music Visualizer (Python)} (\textit{May 2020}) - Built a music visualizer using Fourier transforms.
-\item \textbf{Neural Nets for Solving ODEs (Python)} (\textit{Aug. 2019}) Implemented some algorithms from \href{https://arxiv.org/abs/physics/9705023}{this paper}.
+\small{
+\begin{description}
+  \item[OS Kernel] (\textit{Jan 2020} -- \textit{May 2020}) -- Built a kernel in C with a scheduler, TTY driver, S5FS file system, and virtual memory as part of a course on Operating Systems.
+  \item[Ball Balancing] (\textit{May 2020}) -- Built a high fidelity simulation of a table with two axis of rotation balancing a ball in C++. Implemented a number of features from scratch, including a rigid body physics engine, simulated raytraced camera, image processing pipeline (OpenCV), Kalman filter, and tuned PID controller.
+  \item[Music Visualizer] (\textit{May 2020}) -- Built a music visualizer in Python using Fourier transforms.
+  \item[Neural Nets for Solving ODEs] (\textit{Aug 2019}) -- Implemented algorithms from \href{https://arxiv.org/abs/physics/9705023}{this paper} in Python.
             % \resumeItem{}
             % {Implementing custom optimization algorithm with quadratic convergance}
-\item \textbf{Rocket Stabilization (Python)} (\textit{Apr. 2019 - May 2019}) - Final group project for Nonlinear Dynamical Systems. We studied a thrust vector controlled rocket in two dimensions and discovered bifurcations which occurred as we varied the parameters of a PD controller.
+  \item[Rocket Stabilization] (\textit{Apr 2019 -- May 2019}) -- Final group project for Nonlinear Dynamical Systems. Studied a thrust vector controlled rocket in two dimensions and discovered bifurcations as the PD controller parameters were varied.
         %   \resumeItemListEnd
         % \resumeSubheadingSimple
-        %   {Exploring Numerical Methods}{Oct. 2018 - Apr. 2019}
+        %   {Exploring Numerical Methods}{Oct. 2018 -- Apr. 2019}
         %   \resumeItemListStart
         %     \resumeItem{}
         %       {Explored algorithms for finding numerical approximations to differential equations using Python's numpy library}
         %     \resumeItem{}
         %       {Created visualizations for systems such as the 3-D wave equation and particles in chaotic systems}
         %   \resumeItemListEnd
-    \resumeSubHeadingListEnd
+\end{description}
+}
 % -------Skills--------
 \section{Skills}
   \resumeSubHeadingListStart
-    \item \textbf{Programming Languages} : Python, C++, C, JavaScript, Go, SQL, MATLAB
+    \item \textbf{Programming Languages} -- Python, C++, C, JavaScript, Go, SQL, MATLAB
     % \item \textbf{Communication \& Adaptibility}: Ability to enter a team of diverse people, listen closely, and work collaboratively to push a project forward
-    \item \textbf{Frameworks/Tools}: Numpy, Matplotlib, ROS, PyQtGraph, Django, SQLServer, Oracle, PyTorch, Gazebo
+    \item \textbf{Frameworks/Tools} -- Numpy, Matplotlib, ROS, PyQtGraph, Django, SQLServer, Oracle, PyTorch, Gazebo
   \resumeSubHeadingListEnd
 \section{Activities}
     \resumeSubHeadingListStart
