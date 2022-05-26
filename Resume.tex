@@ -4,7 +4,7 @@
 % License : MIT
 %------------------------
 
-\documentclass[letterpaper,10pt]{article}
+\documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -51,12 +51,12 @@
 % Custom commands
 \newcommand{\resumeItem}[2]{
   \item\small{
-    \textbf{#1}{#2 \vspace{-6pt}}
+    \textbf{#1}{#2 \vspace{-5pt}}
   }
 }
 
 \newcommand{\resumeSubheading}[4]{
-    \vspace{1pt} 
+    \vspace{3pt} 
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
@@ -119,14 +119,15 @@
 %-----------Paid Experience---------------
 \section{Work Experience}
   \resumeSubHeadingListStart
-    \resumeSubheading{Neocis Inc (C++)}{Miami, FL}{Intern}{May 2021 -- Aug 2021}
+  \resumeSubheading{Neocis Inc (C++)}{Miami, FL}
+    {Software Engineering Intern}{May 2021 -- }
       \resumeItemListStart
         \resumeItem{}
-        {TBD}
+      {Developed algorithm to automatically transfer pre-planned surgeries onto pre-op CT scans}
         \resumeItem{}
-        {TBD}
+      {Developed algorithm to detect and classify splints in CT scans}
         \resumeItem{}
-        {TBD}
+      {Developed novel haptics to facilitate more accurate drilling at steep angles and in hard to reach places}
       \resumeItemListEnd
   \resumeSubheading{Draper Laboratories (Python, C++)}
     {Cambridge, MA}{Engineering Intern}{Jun 2020 -- Aug 2020}
@@ -134,7 +135,7 @@
         \resumeItem{}
         {Developed and implemented a search algorithm using a particle filter and information-theoretic search heuristics}
         \resumeItem{}
-        {Applied the search algorithm to determine locations and properties of radioactive and gaseous hazards using a mobile sensor} 
+        {Applied search algorithm to locate and classify radioactive and gaseous hazards using a mobile sensor} 
         \resumeItem{}
         {Implemented improved simulations for gaseous plumes}
       \resumeItemListEnd
@@ -165,15 +166,18 @@
 
 %-----Projects and Volunteer Work-------
 \section{Projects}
+\vspace{3pt}
 \small{
 \begin{description}
-  \item[OS Kernel] (\textit{Jan 2020} -- \textit{May 2020}) -- Built a kernel in C with a scheduler, TTY driver, S5FS file system, and virtual memory as part of a course on Operating Systems.
-  \item[Ball Balancing] (\textit{May 2020}) -- Built a high fidelity simulation of a table with two axis of rotation balancing a ball in C++. Implemented a number of features from scratch, including a rigid body physics engine, simulated raytraced camera, image processing pipeline (OpenCV), Kalman filter, and tuned PID controller.
+  \item[OS Kernel] (\textit{Jan 2021} -- \textit{May 2021}) -- Built a kernel in C with a scheduler, TTY driver, S5FS file system, and virtual memory as part of a course on Operating Systems.
+  \item[Ball Balancing] (\textit{May 2021}) -- Built a high fidelity simulation of a table with two axis of rotation balancing a ball in C++. Implemented a number of features from scratch, including a rigid body physics engine, simulated raytraced camera, image processing pipeline (OpenCV), Kalman filter, and tuned PID controller.
   \item[Music Visualizer] (\textit{May 2020}) -- Built a music visualizer in Python using Fourier transforms.
   \item[Neural Nets for Solving ODEs] (\textit{Aug 2019}) -- Implemented algorithms from \href{https://arxiv.org/abs/physics/9705023}{this paper} in Python.
             % \resumeItem{}
             % {Implementing custom optimization algorithm with quadratic convergance}
   \item[Rocket Stabilization] (\textit{Apr 2019 -- May 2019}) -- Final group project for Nonlinear Dynamical Systems. Studied a thrust vector controlled rocket in two dimensions and discovered bifurcations as the PD controller parameters were varied.
+
+  \item[Dynamic System Visualizer] (\textit{Apr 2019}) -- Created visualizations for complex non-linear systems such as the 2-D wave equation and the Lorenz Attractor using Matplotlib and PyQtGraph.
         %   \resumeItemListEnd
         % \resumeSubheadingSimple
         %   {Exploring Numerical Methods}{Oct. 2018 -- Apr. 2019}
@@ -188,9 +192,9 @@
 % -------Skills--------
 \section{Skills}
   \resumeSubHeadingListStart
-    \item \textbf{Programming Languages} -- Python, C++, C, JavaScript, Go, SQL, MATLAB
+    \item \textbf{Programming Languages} -- C++, C, Python, JavaScript, Go, SQL, MATLAB
     % \item \textbf{Communication \& Adaptibility}: Ability to enter a team of diverse people, listen closely, and work collaboratively to push a project forward
-    \item \textbf{Frameworks/Tools} -- Numpy, Matplotlib, ROS, PyQtGraph, Django, SQLServer, Oracle, PyTorch, Gazebo
+    \item \textbf{Frameworks/Tools} -- Numpy, Matplotlib, ROS, PyQtGraph, Django, SQLServer, Oracle, PyTorch, protobuf, zmq
   \resumeSubHeadingListEnd
 \section{Activities}
     \resumeSubHeadingListStart
