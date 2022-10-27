@@ -93,29 +93,6 @@
 \end{tabular*}
 
 
-%-----------EDUCATION-----------------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-        {Brown University}{Providence, RI}
-        {Applied Math--Computer Science $\cdot$ GPA: 4.0}{2018 -- 2022}
-        \resumeItemListStart
-            \resumeItem{Technical Coursework: }
-            {Operating Systems $\cdot$ Sublinear Algorithms for Big Data $\cdot$ Advanced 3D Perception $\cdot$ Dynamical Systems $\cdot$ Distributed Systems $\cdot$ Convex Optimization $\cdot$ Information Theory $\cdot$ Computer Networks}
-            \resumeItem{Teaching Assistant: } {Discrete Math (Spring 2020, Spring 2021, Spring 2022)}
-        \resumeItemListEnd
-   
-    % \resumeSubheadingSimple{Albany High School}{Albany, NY}
-
-    % \resumeSubheadingSimple
-    %   {Independent Learning}{}
-    %   \resumeItemListStart
-    %     \resumeItem{}
-    %       {Independent reading of computer vision research papers (primarily ResNets and variations such as Wide ResNets, Stochastic Depth, Pyramid nets etc.)}
-    %   \resumeItemListEnd
-  \resumeSubHeadingListEnd
-
-
 %-----------Paid Experience---------------
 \section{Work Experience}
   \resumeSubHeadingListStart
@@ -123,15 +100,15 @@
     {Software Engineer}{Jul 2022 -- Oct 2022}
       \resumeItemListStart
         \resumeItem{}
-      {Reduced lidar perception algorithm runtime by $>$40\%}
+      {Worked on complementary perception stack (CAVS) which provided emergency braking capabilities to the AV}
         \resumeItem{}
-      {Improved redundancy of saftey critical onboard systems}
+      {Enabled the use of high resolution lidar data on limited compute by reducing perception algorithm runtime by $>$40\%}
         \resumeItem{}
-      {Led software development for mission critical end-to-end testing suite}
+      {Improved redundancy throughout the CAVS system, making safety critical signals less susceptible to data corruption}
+        \resumeItem{}
+      {Led software development for end-to-end testing suite which would allow the CAVS system to be enabled in fleet}
         \resumeItem{}
       {Helped develop new visualization framework which reduced overhead time to review logs from 15 min to $<$1 min}
-        \resumeItem{}
-      {Triaged software issues in fleet}
       \resumeItemListEnd
   \resumeSubheading{Neocis Inc (C++)}{Miami, FL}
     {Software Engineering Intern}{May 2021 -- Aug 2021}
@@ -157,7 +134,7 @@
     {Albany, NY}{Software Developer Intern}{Jul 2018 -- Jun 2020}
       \resumeItemListStart
         \resumeItem{}
-        {Migrated an application critical to the COVID-19 response effort from an Oracle back end to SQL Server}
+        {Migrated an application storing the location of COVID-19 test samples from an Oracle back end to SQL Server}
         \resumeItem{}
         {Created systems to import patient identifying information as CSVs which drastically reduced data entry times}
         \resumeItem{}
@@ -178,12 +155,36 @@
       % \resumeItemListEnd
   \resumeSubHeadingListEnd
 
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+        {Brown University}{Providence, RI}
+        {Applied Math--Computer Science $\cdot$ GPA: 4.0}{2018 -- 2022}
+        \resumeItemListStart
+            \resumeItem{Technical Coursework: }
+            {Operating Systems $\cdot$ Sublinear Algorithms for Big Data $\cdot$ Advanced 3D Perception $\cdot$ Dynamical Systems $\cdot$ Distributed Systems $\cdot$ Convex Optimization $\cdot$ Information Theory $\cdot$ Computer Networks}
+            \resumeItem{Teaching Assistant: } {Discrete Math (Spring 2020, Spring 2021, Spring 2022)}
+        \resumeItemListEnd
+   
+    % \resumeSubheadingSimple{Albany High School}{Albany, NY}
+
+    % \resumeSubheadingSimple
+    %   {Independent Learning}{}
+    %   \resumeItemListStart
+    %     \resumeItem{}
+    %       {Independent reading of computer vision research papers (primarily ResNets and variations such as Wide ResNets, Stochastic Depth, Pyramid nets etc.)}
+    %   \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+
 %-----Projects and Volunteer Work-------
 \section{Projects}
 \vspace{3pt}
 \small{
 \begin{description}
-  \item[Fetch] (\textit{Spring 2022}) -- Developed perception, planning, and control pipelines on a Boston Dynamics Spot robot to perform object search and retrieval
+  \item[Fetch] (\textit{Spring 2022}) -- Developed perception, planning, and control pipelines on a Boston Dynamics Spot robot to perform object search and retrieval (\href{https://youtu.be/IvIS-P1sRSk}{video})
   \item[TCP/IP] (\textit{Spring 2022}) -- Implemented a TCP/IP stack in Rust
   \item[Path Tracer] (\textit{Fall 2021}) -- Built path tracer and 3D physics engine in C++ and rendered a \href{https://youtu.be/wIA1xijYGs0}{video} of a galton board
   \item[OS Kernel] (\textit{Spring 2021}) -- Built a kernel in C with a scheduler, TTY, S5FS file system, and virtual memory
